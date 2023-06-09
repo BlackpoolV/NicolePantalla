@@ -1,0 +1,71 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+/**Movil**/
+@media (max-width: 767px) {
+    .desktop {display: none;}
+    .tablet {display: none;}
+}
+/**Tablet**/
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {display: none;}
+    .movil {display: none;}
+}
+/**Escritorio**/
+@media (min-width: 991px) {
+    .tablet {display: none;}
+    .movil {display: none;}
+}
+.adaptacion {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+body {
+    background: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+nav {
+    background: darkred;
+}
+img {
+    background: black;
+    margin: auto;
+}
+.menu {
+    text-align: center;
+    margin: 0px;
+}
+.menu li {
+display: inline-block;
+}
+.menu a {
+    padding: 45px;
+    overflow: hidden;
+    color: whitesmoke;
+    text-align: center;
+    display: block;
+}
+.partegris {
+    background: black;
+    overflow: hidden;
+    color: whitesmoke;
+    text-align: center;
+    padding: 90px;
+}
+.partegris h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+}
+.partegris .apps {
+    display: block;
+    justify-content: center;
+}
